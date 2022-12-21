@@ -1,0 +1,63 @@
+
+
+.containershape {
+    background-color: #68994A;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #68994A;
+}
+
+.header {
+    background-color: #1E41FD !important;
+}
+
+.subtitle {
+    color: #68994A;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.text {
+    color: #030104;
+    font-family: 'Unna', serif;
+}
+
+.alttext{
+    color: #FDFCFD !important;
+    font-family: 'Unna', serif;
+}
+
+body {
+    background-color: #68994A !important;
+}
+
+  
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #1E41FD !important;
+  padding: 2%;
+}
+
+.smallfrag {
+    color: #AB663E;
+}
+
+.contentarea {
+    border-radius : 10px;
+    padding: 1%;
+    margin: 1%;
+    
+
+}
+
+.brandname {
+    font-family: 'Tangerine', cursive;
+    font-size: xx-large !important;
+}

@@ -4,88 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jonathan Torres Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Following 2 lines are for Bootstrap 5 functionality -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</head>
-<body>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-      
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/projects.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/qualifications.html">Qualifications</a>
-          </li>
-        </ul>
+    <!-- Following 4 lines are for favicon functionality. -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Following lines are for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap'); </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+      </style>
+
+<script src="https://kit.fontawesome.com/123a304c10.js" crossorigin="anonymous"></script>
+  </head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="header"> 
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand alttext brandname" href="#">Jonathan Torres</a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link alttext"  href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link alttext" href="#">Qualifications</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
       </nav>
+    </header>
+    
+
+
+    <div class="container contentarea">
+        <div class="row">
+          <div class="col-sm-6">
+          <div class="card"> 
+            
+              <h4 class="card-title subtitle">Texan-Native</h4>
+              <p class="card-text text">I'm a lifelong Texan who grew up in the Houston area.</p>
+            
+          </div>
+        </div>
+
+
+            <div class="col-sm-6">
+                <img class="img-fluid rounded-pill" src="images/houston.jpg" alt="Houston" >
+            </div>
   
-      <div class="jumbotron text-center">
-        <span style="font-size:100px">Howdy, I'm Jonathan Torres</span> 
-      </div>
-         
-      <div class="container" style="margin-top:30px">
+        </div>
+  
+        <div class="row">
+  
+          <div class="col-sm-6">
+            <div class="card">
+              <h4 class="card-title subtitle">Lifetime Learner </h4>
+            <p class="card-text text">I am always interested in learning new programming languages, frameworks, and libraries. </p>
+            </div>
+            
+            
+            </div>
+          <div class="col-sm-6">
+                    <img class="img-fluid rounded-pill" src="images/languages.png" alt="languages" >
+            
+          </div>
+  
+        </div>
+  
   
         
+    </div>
   
-        <div class="row">
-  
-          <div class="col-sm-6">
-            <h2>Texan-Native</h2>
-            <h5>I'm a lifelong Texan who grew up in the Houston area.</h5>
-            
-            </div>
-          <div class="col-sm-6">
-            <img class="img-fluid" src="images/houston.jpg" alt="Houston" >
-          </div>
-  
-        </div>
-  
-        <div class="row">
-  
-          <div class="col-sm-6">
-            <h2>Lifetime Learner </h2>
-            <h5>I am always interested in learning new programming languages, frameworks, and libraries. </h5>
-            
-            </div>
-          <div class="col-sm-6">
-            <img class="img-fluid" src="images/languages.png" alt="languages" >
-          </div>
-  
-        </div>
-  
-  
-        <div class="row">
-  
-          <div class="col-sm-6">
-            <h2>Texas A&M Aggie</h2>
-            <h5>I am a Texas Aggie who is majoring in Computer Science with a minor in Cybersecurity here at the 
-              <a href=" https://www.usnews.com/best-colleges/texas-am-university-college-station-10366/overall-rankings" target="_blank" title="US News Rankings">68th top national university</a> Texas A&M University. </h5>
-            
-            </div>
-          <div class="col-sm-6">
-            <img class="img-fluid" src="images/texasanm.png" alt="TAMU" >
-          </div>
-  
-  
-  
-        </div>
-      </div>
-  
-  
-      <div class="container" style="text-align: center;">
-        <h2>Contact Me</h2>
-      <p>You can reach me here.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:tjonathan1999@gmail.com" title="Send Email using Mail app">Send Email</a>
-        </li>
-      </ul>
-      </div>
+      <footer class="footer mt-auto"> 
+        
+          <a href="https://github.com/torres404">
+            <span class="d-flex justify-content-center" style="color: white;">
+            <i class="fa-brands fa-github fa-2xl" ></i>
+          </span>
+          </a>
+          
+        
+        
+      </footer>
+        
+    
     <script src="../scripts/index.js"></script>
 </body>
 </html>
