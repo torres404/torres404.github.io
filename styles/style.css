@@ -1,12 +1,5 @@
 
 
-.containershape {
-    background-color: #68994A;
-    border-radius: 10px;
-    padding: 1%;
-    margin: 1%;
-    border: 1px solid #68994A;
-}
 
 .header {
     background-color: #333333 !important;
@@ -14,20 +7,25 @@
 
 .subtitle {
     color: #555;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Baskervville', serif;
+    
 }
 
 .text {
     color: #030104;
-    font-family: 'Unna', serif;
+    font-family: 'Cormorant', serif;
+    
 }
 
 .alttext{
     color: #FDFCFD !important;
-    font-family: 'Unna', serif;
+    font-family: 'Cormorant', serif;
+    
 }
 
-
+body {
+    background-color: #EEEEEE !important;
+}
 
   
 html {
@@ -39,12 +37,8 @@ html {
 .footer {
   margin-top: auto;
   width: 100%;
-  background-color: #BBBBBB !important;
+  background-color: #333333 !important;
   padding: 2%;
-}
-
-.smallfrag {
-    color: #AB663E;
 }
 
 .contentarea {
