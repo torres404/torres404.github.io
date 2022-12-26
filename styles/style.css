@@ -53,3 +53,8 @@ html {
     font-family: 'Tangerine', cursive;
     font-size: xx-large !important;
 }
+
+.footericon {
+    display: inline-block;
+    margin: 0 10px;
+}
